@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Testng">
+	<test name = "NewTestset">
+	<groups > 
+	<run>
+	<include name="A"></include>
+	</run>
+	</groups>
+		<classes>
+			<class name = "TestNG.NewTestdepend" />
+			<class name = "TestNG.NewTestprior" />
+		</classes>
+	</test>
+</suite>

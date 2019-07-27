@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test" parallel="tests">
+<test name="indro8">
+<classes>
+<class name="TestNG.Day8"></class>
+</classes>
+</test>
+<test name="indro9">
+<classes>
+<class name="TestNG.Day9"></class>
+</classes>
+</test>
+
+</suite>

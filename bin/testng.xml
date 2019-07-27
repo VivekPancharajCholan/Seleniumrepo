@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Testone">
+    <classes>
+   
+     <class name="TestNG.TestngDemo2"/>
+      <class name="TestNG.TestngDemo3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Testtwo">
+    <classes>
+     <class name="TestNG.TestngDemo4"/>
+      <class name="TestNG.TestngDemo5"/>
+    </classes>
+    
+
+  </test> <!-- Test -->
+  
+  <test name="Testthree">
+    <classes>
+     <class name="TestNG.TestngDemo6"/>
+      <class name="TestNG.TestngDemo7"/>
+    </classes>
+    
+
+  </test> <!-- Test -->
+  
+
+  
+</suite> <!-- Suite -->
